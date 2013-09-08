@@ -1,3 +1,6 @@
+# the executable
+latex2rtf
+
 # Object files
 *.o
 
