@@ -38,6 +38,7 @@
 #define F_SHAPE_UPRIGHT_2    15
 #define F_SHAPE_UPRIGHT_3    16
 #define F_SHAPE_MATH_UPRIGHT 17
+#define F_SHAPE_STRIKEOUT    20
 
 #define F_SERIES_MEDIUM      1
 #define F_SERIES_MEDIUM_1    2

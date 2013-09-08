@@ -112,6 +112,8 @@ static CommandArray commands[] = {
     {"textsl", CmdFontShape, F_SHAPE_SLANTED_2},
     {"mathsl", CmdFontShape, F_SHAPE_SLANTED_2},
 
+    {"sout", CmdFontShape, F_SHAPE_STRIKEOUT},
+
     {"tiny", CmdFontSize, 10},
     {"scriptsize", CmdFontSize, 14},
     {"footnotesize", CmdFontSize, 16},

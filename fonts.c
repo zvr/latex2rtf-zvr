@@ -330,9 +330,14 @@ void CmdFontShape(int code)
         case F_SHAPE_CAPS_2:
             fprintRTF("{\\scaps ");
             break;
+
+        case F_SHAPE_STRIKEOUT:
+            fprintRTF("{\\strike ");
+            break;
     }
 
     if (true_code == F_SHAPE_UPRIGHT_2 || true_code == F_SHAPE_ITALIC_2 ||
+      true_code == F_SHAPE_STRIKEOUT ||
       true_code == F_SHAPE_SLANTED_2 || true_code == F_SHAPE_CAPS_2) {
         char *s;
 
