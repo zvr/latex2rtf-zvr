@@ -63,6 +63,7 @@ static CommandArray commands[] = {
     {"today", CmdToday, 0},
     {"footnote", CmdFootNote, FOOTNOTE},
     {"endnote", CmdFootNote, ENDNOTE},
+    {"pagenote", CmdFootNote, ENDNOTE},
 
     {"rmfamily", CmdFontFamily, F_FAMILY_ROMAN  },
     {"rm", CmdFontFamily, F_FAMILY_ROMAN_1},
@@ -111,6 +112,8 @@ static CommandArray commands[] = {
     {"sl", CmdFontShape, F_SHAPE_SLANTED_1},
     {"textsl", CmdFontShape, F_SHAPE_SLANTED_2},
     {"mathsl", CmdFontShape, F_SHAPE_SLANTED_2},
+
+    {"textgreek", CmdFontShape, F_SHAPE_SLANTED_2},
 
     {"sout", CmdFontShape, F_SHAPE_STRIKEOUT},
 
